@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Shivansh",
+  lastName: "Pandey",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Brand, UI/UX, and Graphic Designer",
+  avatar: "/images/avatar.jpeg",
+  email: "shivanshp987@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -28,19 +28,19 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    name: "Behance",
+    icon: "behance",
+    link: "https://www.behance.net/sxivansx",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/sxivansx",
   },
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/sxivansx",
   },
   {
     name: "Email",
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Crafting brands, experiences, and visuals that resonate</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,8 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Shivansh, a designer who crafts brands from the ground up — from logos and visual identity to websites and digital experiences. I blend design thinking, creativity, and technology to create intuitive, memorable user experiences.
     </>
   ),
 };
@@ -82,7 +81,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -90,14 +89,12 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm a Bangalore-based Creative Designer specializing in Brand, UI/UX, and Graphic Design. I build brands from the ground up — crafting logos, themes, graphics, and websites — with a strong focus on user-centered, impactful design that helps brands connect, engage, and grow.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
@@ -147,22 +144,18 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Dayanand Sagar College of Engineering",
+        description: <>Electronics Student</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Brand Design",
+        description: <>Crafting timeless brand identities from scratch—logos, color systems, visual language, and complete branding systems built for real-world connection and clarity.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -180,8 +173,22 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "UI/UX and Product Design",
+        description: <>Creating intuitive, user-friendly interfaces that make complex tasks feel effortless.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Graphic Design",
+        description: <>The foundation of everything I do—posters, social content, motion-ready visuals, and campaigns with real visual impact. 
+        I treat every pixel like it matters (because it does).</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -209,7 +216,7 @@ const work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Designed by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
