@@ -14,7 +14,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -58,8 +58,8 @@ const home = {
   headline: <>Crafting brands, experiences, and visuals that resonate</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">FreeSip</strong></>,
+    href: "/work/freesip",
   },
   subline: (
     <>
@@ -86,10 +86,10 @@ const about = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "About",
     description: (
       <>
-        I'm a Bangalore-based Creative Designer specializing in Brand, UI/UX, and Graphic Design. I build brands from the ground up — crafting logos, themes, graphics, and websites — with a strong focus on user-centered, impactful design that helps brands connect, engage, and grow.
+        I'm a designer who crafts brands from the ground up — from logos and visual identity to websites and digital experiences. I blend design thinking, creativity, and technology to create intuitive, memorable user experiences.
       </>
     ),
   },
@@ -150,7 +150,7 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Skills",
     skills: [
       {
@@ -159,13 +159,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/freesip/cover-01.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/zenith/cover-01.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -176,28 +176,13 @@ const about = {
         title: "UI/UX and Product Design",
         description: <>Creating intuitive, user-friendly interfaces that make complex tasks feel effortless.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+      
       },
       {
         title: "Graphic Design",
         description: <>The foundation of everything I do—posters, social content, motion-ready visuals, and campaigns with real visual impact. 
         I treat every pixel like it matters (because it does).</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
     ],
   },
@@ -230,45 +215,36 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/g5.jpeg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/g3.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/g2.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/g1.jpg",
       alt: "image",
       orientation: "vertical",
     },
+    {
+      src: "/images/gallery/g4.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/g6.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+
   ],
 };
 
