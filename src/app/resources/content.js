@@ -81,8 +81,8 @@ const about = {
     display: true,
   },
   calendar: {
-    display: false,
-    link: "https://cal.com",
+    display: true,
+    link: "https://cal.com/sxivansx/30min",
   },
   intro: {
     display: true,
