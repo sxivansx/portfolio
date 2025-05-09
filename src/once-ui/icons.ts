@@ -39,7 +39,7 @@ import {
 import { FaDiscord, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 
 import { FaBehance } from "react-icons/fa";
-
+import { FaInstagram } from "react-icons/fa";
 export const iconLibrary: Record<string, IconType> = {
   chevronUp: HiChevronUp,
   chevronDown: HiChevronDown,
@@ -76,6 +76,7 @@ export const iconLibrary: Record<string, IconType> = {
   sun: HiSun,
   document: HiOutlineDocument,
   behance: FaBehance,
+  instagram: FaInstagram,
 };
 
 export type IconLibrary = typeof iconLibrary;

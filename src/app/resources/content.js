@@ -38,6 +38,11 @@ const social = [
     link: "https://www.linkedin.com/in/sxivansx",
   },
   {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/shivansh.life",
+  },
+  {
     name: "X",
     icon: "x",
     link: "https://x.com/sxivansx",
