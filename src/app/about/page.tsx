@@ -49,6 +49,11 @@ export default function About() {
       display: about.technical.display,
       items: about.technical.skills.map((skill) => skill.title),
     },
+    {
+      title: about.tools.title,
+      display: about.tools.display,
+      items: about.tools.tools.map((tool) => tool.name),
+    },
   ];
   return (
     <Column maxWidth="m">
@@ -297,6 +302,27 @@ export default function About() {
                   </Column>
                 ))}
               </Column>
+            </>
+          )}
+
+          {about.tools.display && (
+            <>
+              <Heading as="h2" id={about.tools.title} variant="display-strong-s" marginBottom="m">
+                {about.tools.title}
+              </Heading>
+              <Flex className={styles.blockAlign} paddingTop="8" paddingBottom="8" gap="8" wrap horizontal="start" fitWidth data-border="rounded">
+                {about.tools.tools.map((tool) => (
+                  <Button
+                    key={tool.name}
+                    prefixIcon={tool.icon}
+                    label={tool.name}
+                    size="s"
+                    variant="secondary"
+                    style={{ minWidth: "120px" }}
+                    title={tool.description }
+                  />
+                ))}
+              </Flex>
             </>
           )}
         </Column>

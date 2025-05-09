@@ -154,6 +154,37 @@ const about = {
       },
     ],
   },
+  tools: {
+    display: true,
+    title: "Tools",
+    tools: [
+      {
+        name: "Figma",
+        icon: "figma",
+        description: "For UI/UX design and prototyping",
+      },
+      {
+        name: "Adobe Illustrator",
+        icon: "illustrator",
+        description: "For vector graphics and illustration",
+      },
+      {
+        name: "Adobe Photoshop",
+        icon: "photoshop",
+        description: "For image editing and manipulation",
+      },
+      {
+        name: "Adobe XD",
+        icon: "xd",
+        description: "For UI/UX design and prototyping",
+      },
+      {
+        name: "VS Code",
+        icon: "vscode",
+        description: "For code editing and development",
+      },
+    ],
+  },
   technical: {
     display: true,
     title: "Skills",
