@@ -10,6 +10,11 @@ export function Projects({ range }: ProjectsProps) {
   let allProjects = getPosts(["src", "app", "work", "projects"]);
 
   const sortedProjects = allProjects.sort((a, b) => {
+    // If it's the tags project, always put it first
+    if (a.slug === "tags") return -1;
+    if (b.slug === "tags") return 1;
+    
+    // Otherwise sort by date
     return new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime();
   });
 

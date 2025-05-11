@@ -63,8 +63,8 @@ const home = {
   headline: <>Crafting brands, experiences, and visuals that resonate</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">FreeSip</strong></>,
-    href: "/work/freesip",
+    title: <>Recent project: <strong className="ml-4">Google Pay Tags</strong></>,
+    href: "/work/tags",
   },
   subline: (
     <>
@@ -164,24 +164,34 @@ const about = {
         description: "For UI/UX design and prototyping",
       },
       {
-        name: "Adobe Illustrator",
+        name: "Illustrator",
         icon: "illustrator",
         description: "For vector graphics and illustration",
       },
       {
-        name: "Adobe Photoshop",
+        name: "Photoshop",
         icon: "photoshop",
         description: "For image editing and manipulation",
       },
       {
-        name: "Adobe XD",
-        icon: "xd",
-        description: "For UI/UX design and prototyping",
+        name: "Premiere Pro",
+        icon: "premiere",
+        description: "For video editing and animation",
       },
       {
-        name: "VS Code",
-        icon: "vscode",
-        description: "For code editing and development",
+        name: "After Effects",
+        icon: "after-effects",
+        description: "For video editing and animation",
+      },
+      {
+        name: "InDesign",
+        icon: "indesign",
+        description: "For layout design and publication design",
+      },
+      {
+        name: "Blender",
+        icon: "blender",
+        description: "For 3D modeling and animation",
       },
     ],
   },
@@ -196,22 +206,29 @@ const about = {
         images: [
           {
             src: "/images/projects/project-01/freesip/cover-01.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            alt: "Project image", 
+            width: 8,
+            height: 4.5,
           },
           {
             src: "/images/projects/project-01/zenith/cover-01.png",
             alt: "Project image",
-            width: 16,
-            height: 9,
+            width: 8,
+            height: 4.5,
           },
         ],
       },
       {
         title: "UI/UX and Product Design",
         description: <>Creating intuitive, user-friendly interfaces that make complex tasks feel effortless.</>,
-        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/tags/header.png",
+            alt: "Project image",
+            width: 8,
+            height: 5 ,
+          },
+        ],// optional: leave the array empty if you don't want to display images
       
       },
       {
