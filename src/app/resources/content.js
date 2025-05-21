@@ -63,8 +63,8 @@ const home = {
   headline: <>Crafting brands, experiences, and visuals that resonate</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Google Pay Tags</strong></>,
-    href: "/work/tags",
+    title: <>Recent project: <strong className="ml-4">NexTribe</strong></>,
+    href: "/work/nextribe",
   },
   subline: (
     <>
@@ -150,7 +150,7 @@ const about = {
     institutions: [
       {
         name: "Dayanand Sagar College of Engineering",
-        description: <>Electronics Student</>,
+        description: <>Electronics Student (2023-2027)</>,
       },
     ],
   },
@@ -189,8 +189,8 @@ const about = {
         description: "For layout design and publication design",
       },
       {
-        name: "Blender",
-        icon: "blender",
+        name: "Cinema 4D",
+        icon: "cinema4d",
         description: "For 3D modeling and animation",
       },
     ],
