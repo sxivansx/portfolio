@@ -203,16 +203,23 @@ const about = {
         title: "Brand Design",
         description: <>Crafting timeless brand identities from scratch—logos, color systems, visual language, and complete branding systems built for real-world connection and clarity.</>,
         // optional: leave the array empty if you don't want to display images
+         
         images: [
           {
+            src: "/images/projects/project-01/nextribe/cover-03.png",
+            alt: "NexTribe", 
+            width: 8,
+            height: 4.5,
+          },
+          {
             src: "/images/projects/project-01/freesip/cover-01.png",
-            alt: "Project image", 
+            alt: "Freesip", 
             width: 8,
             height: 4.5,
           },
           {
             src: "/images/projects/project-01/zenith/cover-01.png",
-            alt: "Project image",
+            alt: "Zenith",
             width: 8,
             height: 4.5,
           },
@@ -228,7 +235,13 @@ const about = {
             width: 8,
             height: 5 ,
           },
-        ],// optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/nextribe/cover-01.png",
+            alt: "NexTribe", 
+            width: 8,
+            height: 5,
+          },
+        ]// optional: leave the array empty if you don't want to display images
       
       },
       {
